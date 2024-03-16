@@ -25,6 +25,17 @@ export const sliderItems = [
 export const categories = [
     {
         id: 1,
-        img: ""
+        img: "https://www.fashionnova.com/cdn/shop/files/02-26-24_Festival-Collection_13_MTS6706FN_MediumWash_TH_MR_11-03-26_0405_WG_WG_468x.jpg?v=1710525634",
+        title: "SWEATSHIRT STYLE!",
+    },
+    {
+        id: 2,
+        img: "https://teddyfresh.com/cdn/shop/files/TF24T12-ACID-FLORAL-TEE-FRONT.jpg?v=1708978961&width=800",
+        title: "T-SHIRT LOVE!",
+    },
+    {
+        id: 3,
+        img: "https://teddyfresh.com/cdn/shop/files/TF23JK19-FULL-ZIP-SHERPA-JACKET-PINK-FRONT.jpg?v=1696391929&width=800",
+        title: "LIGHT JACKETS",
     }
 ]
