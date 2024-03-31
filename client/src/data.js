@@ -25,17 +25,22 @@ export const sliderItems = [
 export const categories = [
     {
         id: 1,
-        img: "https://www.fashionnova.com/cdn/shop/files/02-26-24_Festival-Collection_13_MTS6706FN_MediumWash_TH_MR_11-03-26_0405_WG_WG_468x.jpg?v=1710525634",
+        img: "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_1200/01/nm_4567104_100296_m",
         title: "SWEATSHIRT STYLE!",
     },
     {
         id: 2,
-        img: "https://teddyfresh.com/cdn/shop/files/TF24T12-ACID-FLORAL-TEE-FRONT.jpg?v=1708978961&width=800",
+        img: "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_1200/01/nm_4684787_100496_m",
         title: "T-SHIRT LOVE!",
     },
     {
         id: 3,
-        img: "https://teddyfresh.com/cdn/shop/files/TF23JK19-FULL-ZIP-SHERPA-JACKET-PINK-FRONT.jpg?v=1696391929&width=800",
+        img: "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_1200/01/nm_4584812_100244_m",
         title: "LIGHT JACKETS",
+    }
+]
+export const popularProducts = [
+    {
+        id: 1,
     }
 ]
