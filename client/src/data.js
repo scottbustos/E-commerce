@@ -42,5 +42,6 @@ export const categories = [
 export const popularProducts = [
     {
         id: 1,
+        img: "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_1200/01/nm_4584812_100244_m",
     }
 ]
