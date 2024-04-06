@@ -42,6 +42,30 @@ export const categories = [
 export const popularProducts = [
     {
         id: 1,
-        img: "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_1200/01/nm_4584812_100244_m",
+        img: "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_1200/01/nm_4684787_100496_a",
+    },
+    {   id: 2,
+        img: "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_790/01/nm_4781888_100436_a",
+    },
+    {
+        id: 3,
+        img: "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_790/01/nm_4736492_100380_a",
+    },
+    {   id: 4,
+        img: "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_790/01/nm_4704422_100189_a",
+    },
+    {
+        id: 5,
+        img: "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_790/01/nm_4704419_100340_m",
+    },
+    {   id: 6,
+        img: "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_790/01/nm_4684191_100296_a",
+    },
+    {
+        id: 7,
+        img: "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_790/01/nm_4744676_100714_a",
+    },
+    {   id: 8,
+        img: "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_790/01/nm_4713087_100612_a",
     }
 ]
