@@ -14,6 +14,8 @@ const Info = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s ease;
+    cursor: pointer;
 `
 
 const Container = styled.div`
@@ -38,7 +40,7 @@ const Circle = styled.div`
 
 const Image = styled.img`
     height: 75%;
-    border-radius: 30%;
+    border-radius: 50%;
     background-color: #fbf0f4;
 `
 
