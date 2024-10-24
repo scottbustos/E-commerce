@@ -12,12 +12,8 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
-<<<<<<< HEAD
     "mongoose": "^8.7.2",
     "node": "^22.10.0",
-=======
-    "mongoose": "^8.7.1",
->>>>>>> f67acc513b21565cb3bbed65fa3ffa423a165f42
     "nodemon": "^3.1.7"
   }
 }

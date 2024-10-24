@@ -8,6 +8,7 @@ dotenv.config();
 mongoose.connect(process.env.MONGO_URL).then(() => console.log("DB connection Successful")).catch((err) =>
 {console.log("Error connecting", err.message)});
 
+app.use(express.json());
 app.use('/api/users', userRoute);
 
 app.listen(process.env.PORT || 3000, () => {
