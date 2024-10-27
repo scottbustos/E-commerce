@@ -7,7 +7,7 @@ import Cart from "./pages/Cart";
 
 const App = () => {
   return <div>
-    <Product/>
+    <ProductList/>
   </div>;
 };
 
