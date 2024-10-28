@@ -1,8 +1,9 @@
 const router = require("express").Router();
-const {verifyToken} = require("./verifyToken");
+const User = require("../Models/User");
+const {verifyTokenAndAuthorization} = require("./verifyToken");
 
 //UPDATE
-router.put("/:id", verifyToken, async (req, res) => {
+router.put("/:id", verifyTokenAndAuthorization, async (req, res) => {
     if (req.user.password) {
         req.user.password = (await bcrypt.hash(req.body.password, 10)).toString();
     }
@@ -12,6 +13,7 @@ router.put("/:id", verifyToken, async (req, res) => {
         }, {new: true});
         res.status(200).json(updatedUser);
     } catch (err) {
+        console.log(err);
         res.status(500).json(err);
     }
 
