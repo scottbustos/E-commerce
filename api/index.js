@@ -11,7 +11,7 @@ const ordersRoute = require('./routes/order');
 
 require('dotenv').config();
 
-mongoose.connect(process.env.MONGO_URL).then(() => console.log('MongoDB URL:', process.env.MONGO_URL)).catch((err) =>
+mongoose.connect(process.env.MONGO_URL).then(() => console.log("DB connected")).catch((err) =>
 {console.log("Error connecting", err.message)});
 
 
