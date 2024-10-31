@@ -8,6 +8,10 @@ const productsRoute = require('./routes/product');
 const cartsRoute = require('./routes/cart');
 const ordersRoute = require('./routes/order');
 
+app.use((req, res, next) => {
+    res.header("Access-Control-Allow-Origin", "*");
+    next();
+});
 
 require('dotenv').config();
 
@@ -22,6 +26,6 @@ app.use('/api/products', productsRoute);
 app.use('/api/carts', cartsRoute);
 app.use('/api/orders', ordersRoute);
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(process.env.PORT || 3001, () => {
     console.log('Backend listening on port');
 });

@@ -27,16 +27,19 @@ export const categories = [
         id: 1,
         img: "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_1200/01/nm_4567104_100296_m",
         title: "SWEATSHIRT STYLE!",
+        cat:"woman"
     },
     {
         id: 2,
         img: "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_1200/01/nm_4684787_100496_m",
         title: "T-SHIRT LOVE!",
+        cat:"coats"
     },
     {
         id: 3,
         img: "https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_1200/01/nm_4584812_100244_m",
         title: "LIGHT JACKETS",
+        cat:"jeans"
     }
 ]
 export const popularProducts = [
